@@ -1,0 +1,806 @@
+@media (max-width:320px){
+.login-page-headding {
+    margin-bottom: 3rem;
+}
+.login-page-logo {
+    margin-bottom: 2rem;
+}
+.login-page-content::before{
+    margin-top: -1rem;
+}
+.login-page-content::after{
+    margin-top: 1rem;
+}
+.login-method-area-1 ul li a {
+    padding: .6rem 1rem;
+    font-size: .5rem;
+}
+.forgot-password a {
+    font-size: .7rem;
+}
+a.login-continue-btn {
+    font-size: .7rem;
+    padding: .5rem .5rem;
+    margin-bottom: 1rem;
+}
+.dont-have-account span {
+    font-size: .6rem;
+}
+.dont-have-account span a {
+    font-size: .6rem;
+    top: 6px;
+}
+
+
+}
+@media (max-width:479px) {
+.dont-have-account span a {
+    font-size: .6rem;
+    top: 6px;
+}
+.dont-have-account span {
+    font-size: .6rem;
+}
+.login-method-area-1 ul li a {
+    padding: .6rem 1rem;
+    font-size: .5rem;
+}
+a.login-continue-btn {
+    font-size: .7rem;
+    padding: .5rem .5rem;
+    margin-bottom: 1rem;
+}
+
+
+.login-page-content::before{
+    margin-top: -1rem;
+}
+.login-page-content::after{
+    margin-top: 1rem;
+}
+.login-page-headding {
+    margin-bottom: 3rem;
+}
+.login-page-logo {
+    margin-bottom: 2rem;
+}
+.toggle-button-area{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.brand-logo {
+    left: 33%;
+    transform: translate(-50%,-50%);
+    width: 125px;
+    height: auto;
+    top: 50%;
+}
+.catagori-single-img {
+    width: 100%;
+}
+.catagori-single-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.catagori-item-content h1 {
+    font-size: .8rem;
+}
+.catagori-item-content p {
+    margin-bottom: 2.2rem;
+}
+.promo-content h1 {
+    font-size: .75rem;
+}
+.social-links-section ul li a {
+    padding: .5rem;
+}
+.social-links-section ul li a img {
+    width: 30px;
+}
+.footer-logo,
+.footer-menu {
+    text-align: center;
+}
+.footer-menu{
+    margin-top: 1rem;
+}
+
+.footer-menu ul li a {
+    padding: .4rem .3rem;
+}
+/*index_02*/
+.time-area {
+    margin-right: 1rem;
+}
+.time-area span {
+    padding: 0rem .3rem;
+}
+.comment-area span {
+    padding: .3rem;
+}
+.slider-content {
+    padding-top: 2rem;
+}
+.share-and-expand-btn {
+    bottom: 11px;
+    right: 16px;
+}
+.t-alignment {
+    text-align: center !important;
+    margin: .6rem 0rem;
+}
+.contastant-bth-area {
+
+    float: none;
+}
+
+.modal-upload-img {
+    height: 54%;
+}
+.modal-upload-img a span > i,
+.modal-upload-video a span i {
+    font-size: 1rem;
+}
+
+.modal-upload-img a span.upload-title {
+    font-size: .55rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.modal-upload-video a span.video-upload-title{
+    font-size: .55rem;
+}
+
+.video-url-form form input[type='url']{
+    width: 150px;
+}
+
+/*registration page responsive*/
+
+.registration-headding h1 {
+    font-size: 1rem;
+    text-align: center;
+}
+.registration-method-1 ul li {
+    display: inline;
+    padding: 0rem;
+}
+.registration-method-1 ul li a{
+    margin: .5rem;
+}
+.registration-method-2-headding h1::before, 
+.login-method-area-2-headding h1::before {
+    width: 70px;
+    margin-left: -80px;
+}
+.registration-method-2-headding h1::after, 
+.login-method-area-2-headding h1::after {
+    width: 70px;
+    margin-left: 10px;
+}
+.forgot-password a {
+    font-size: .7rem;
+}
+.continue-btn {
+    font-size: .7rem;
+    padding: .5rem 2rem;
+    position: relative;
+    left: 21%;
+}
+.login-now-btn {
+    font-size: .7rem;
+    position: absolute;
+    left: 23px !important;
+    bottom: -39px;
+}
+
+
+
+
+}
+@media (min-width: 480px) {
+	/*index.html page responsive start*/
+.user-logo a > img {
+    border-radius: 50%;
+    margin-right: 0rem;
+    width: 40px;
+    height: 40px;
+}
+.brand-logo a img{
+	height: 40px;
+}
+.catagori-single-img {
+    width: 150px;
+    height: 125px;
+}
+.catagori-single-content {
+    padding: .5rem;
+}
+.catagori-item-content h1 {
+    font-size: .7rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+span.left-element {
+    margin-right: .3rem;
+    position: absolute;
+    padding: .5rem 0rem;
+}
+.catagori-item-content p {
+    font-size: .7rem;
+}
+span.right-element {
+    padding: .25rem .25rem;
+}
+.promo-content h1 {
+    font-size: .6rem;
+}
+.social-links-section ul li a {
+    padding: .3rem;
+}
+.social-links-section ul li a img {
+    width: 30px;
+}
+.footer-logo{
+	text-align: center;
+}
+.footer-menu {
+    text-align: center;
+}
+.footer-menu ul li a {
+    padding: .5rem .5rem;
+}
+/*index-02.html page responsive start*/
+
+.header-login-area span {
+    margin: 0rem .3rem;
+}
+
+.header-login-area {
+    padding: .5rem;
+}
+.slider-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.time-area span {
+    padding: 0rem .4rem;
+}
+.comment-area span {
+    padding: .5rem;
+}
+.share-and-expand-btn {
+    bottom: 10px;
+    right: 13px;
+}
+.contastant-bth-area ul li a {
+    font-size: .6rem;
+}
+.contastant-bth-area ul li:first-child {
+    margin-right: 1rem;
+}
+.contastant-bth-area {
+    padding: .4rem;
+}
+
+
+.contastant-bth-area {
+    float: none;
+}
+
+
+
+/*registration page responsive*/
+
+
+.registration-method-1 ul li a{
+    margin: .5rem;
+}
+
+
+.continue-btn {
+    font-size: .7rem;
+    padding: .5rem 2rem;
+}
+.login-now-btn {
+    font-size: .6rem;
+}
+.login-page-headding h1 {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.login-page-content h1 {
+    font-size: 1rem;
+}
+.login-page-logo {
+    margin-bottom: 3rem;
+}
+.login-page-content::before {
+    margin-top: -1rem;
+}
+.login-page-content::after {
+    margin-top: 1rem;
+}
+.login-learn-more-btn {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+.login-method-area-1 ul li a {
+    font-size: .6rem;
+}
+.login-learn-more-btn a {
+    color: #000;
+    font-size: .7rem;
+}
+.login-page-content {
+    margin-bottom: 2rem;
+}
+.registration-method-2-headding h1::before, 
+.login-method-area-2-headding h1::before {
+    width: 70px;
+    margin-left: -80px;
+}
+.registration-method-2-headding h1::after, 
+.login-method-area-2-headding h1::after {
+    width: 70px;
+    margin-left: 10px;
+}
+.registration-form label {
+    font-size: .6rem;
+    font-weight: 600;
+}
+
+.checkmark {
+    height: 20px;
+    width: 20px;
+}
+.checkbox-btn .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 6px;
+    height: 11px;
+}
+.forgot-password a {
+    font-size: .6rem;
+}
+.login-continue-btn {
+    padding: .6rem 1rem;
+}
+a.login-continue-btn {
+    font-size: .7rem;
+}
+.dont-have-account span {
+    font-size: .6rem;
+}
+.dont-have-account span a {
+    font-size: .6rem;
+    top: 5px;
+}
+.dont-have-account {
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+.contastant-search-btn {
+    margin-right: 0rem;
+}
+.continue-btn {
+    font-size: .7rem;
+    padding: .6rem 2rem;
+}
+.login-now-btn {
+    font-size: .7rem;
+}
+.registration-method-2-headding h1::before, 
+.login-method-area-2-headding h1::before {
+    width: 100px;
+    margin-left: -130px;
+}
+.registration-method-2-headding h1::after, 
+.login-method-area-2-headding h1::after {
+    width: 100px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px){
+.registration-method-1 ul li {
+    display: inline;
+    padding: 0rem 0rem;
+}
+.login-page-area:before {
+    width: 2rem;
+}
+.login-page-headding h1,
+.login-page-content h1{
+    color: #000;
+}
+.login-page-content::before,
+.login-page-content::after{
+    background-color: #000;
+}
+/*login page responsive*/
+
+.login-privecy {
+    display: block;
+    float: none;
+    text-align: center;
+}
+.login-footer-menu{
+    text-align: center;
+    float: none;
+    display: block;
+}
+
+}
+@media (min-width: 768px) {
+
+/*index.html page responsive start*/
+.audition-area-wrapper > h1 {
+    font-size: 1rem;
+}
+.single-audition-content h1 {
+    font-size: .6rem;
+    font-weight: 800;
+}
+.single-audition-item-img {
+    margin-right: .4rem;
+}
+.single-promo-img h1 {
+    letter-spacing: 1px;
+    font-size: .8rem;
+    padding: .7rem;
+}
+.audition-content-bottom{
+    display: none;
+}
+/*index-02.html page responsive start*/
+.t-alignment{
+	float: right;
+    margin: .6rem 0rem;
+}
+.contastant-bth-area {
+    float: left;
+}
+
+.contastant-detail-img-wrapper {
+    margin-bottom: 1rem;
+    padding: 0rem;
+}
+.contastant-detail-img img {
+    box-shadow: 0px 0px 25px 2px #DCDADA;
+
+}
+
+.contastant-detail-img h1 {
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+span.contastant-designetion-btn {
+    left: .3rem;
+}
+span.contastant-views-btn {
+    right: .3rem;
+}
+span.contastant-designetion-btn, 
+span.contastant-views-btn {
+    font-size: .5rem;
+    margin-bottom: 1rem;
+}
+.contastant-detail-img h1 {
+    margin-left: .3rem;
+}
+.contastant-detail-img span i {
+    padding: .65rem;
+    width: 32px;
+    height: 32px;
+}
+
+.registration-method-2-headding h1::before, 
+.login-method-area-2-headding h1::before {
+    width: 80px;
+    margin-left: -90px;
+}
+.registration-method-2-headding h1::after, 
+.login-method-area-2-headding h1::after {
+    width: 80px;
+    margin-left: 10px;
+}
+.login-page-headding h1 {
+    font-size: 1rem;
+    margin-bottom: 6rem;
+}
+.login-learn-more-btn a {
+    color: #fff;
+}
+.login-method-area-1 ul li a {
+    margin: .5rem;
+}
+.login-privecy,
+.login-footer-menu {
+    text-align: center;
+    display: contents;
+}
+.login-footer-menu ul li a {
+    padding: .3rem;
+}
+.forgot-password {
+    position: relative;
+    right: -36px;
+    top: -7px;
+}
+.login-submit-btn-area {
+    margin: 1rem 1rem;
+}
+.dont-have-account span a {
+    font-size: .5rem;
+}
+.dont-have-account span {
+    font-size: .5rem;
+}
+.registration-form label{
+    font-size: .75rem;
+    font-weight: 700;
+}
+.forgot-password{
+    position: relative;
+    right: 0;
+    top: 0;
+
+}
+.forgot-password a {
+    font-size: .7rem;
+}
+.login-submit-btn-area{
+    margin: 1rem 1rem;
+}
+
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 991px){
+/*index.html page responsive start*/
+/*responsive mobile menu*/
+#mobile-menu-section-wrapper{
+    visibility: visible;
+}
+.main-menu-area{
+	display: none;
+}
+.user-logo a img.user-avater,
+.user-logo a img.user-avater,
+.user-logo span.user-name,
+.user-logo span.user-search{
+	display: none;
+}
+
+
+/*index-02.html page responsive start*/
+.header-promo-quote {
+    display: none;
+}
+.header-search-btn {
+    display: none;
+}
+.post-job-btn a {
+    display: none;
+}
+.t-alignment{
+	text-align: center !important;
+    margin: .6rem 0rem;
+}
+/*index-03.html page responsive start*/
+
+
+
+
+}
+
+
+@media (min-width: 992px) {
+/*index.html page responsive start*/
+/*responsive mobile menu*/
+#mobile-menu-section-wrapper{
+    visibility: hidden;
+}
+.brand-logo a img {
+    height: 50px;
+}
+.user-logo a > img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1.25rem;
+
+}
+.user-logo a img.user-avater-2{
+    display: none;
+}
+.catagori-single-content {
+    padding: 1rem;
+}
+.single-audition-content h1 {
+    font-size: .75rem;
+    font-weight: 800;
+}
+.catagori-item-content p {
+    font-size: 1.1rem;
+}
+.audition-area-wrapper > h1 {
+    font-size: 1.6rem;
+}
+.audition-content-bottom{
+    display: block;
+}
+.social-links-section ul li a img {
+    width: 50px;
+}
+.social-links-section ul li a {
+    padding: 1rem;
+}
+.footer-menu {
+    text-align: right;
+}
+.catagori-item-content h1 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.catagori-single-img {
+    width: 275px;
+    height: auto;
+}
+/*index_02.html page responsive start*/
+
+.header-login-area {
+    padding: 1rem 0rem 0rem;
+}
+.slider-content {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+/*index-03.html page responsive start*/
+
+
+/*registration page design*/
+.registration-method-2-headding h1::before, 
+.login-method-area-2-headding h1::before {
+    width: 100px;
+    margin-left: -110px;
+}
+.registration-method-2-headding h1::after, 
+.login-method-area-2-headding h1::after {
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+
+.contastant-detail-img span i {
+    padding: .9rem;
+    width: 40px;
+    height: 40px;
+}
+
+.contastant-detail-img h1 {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+}
+span.contastant-designetion-btn {
+    left: 1rem;
+}
+span.contastant-designetion-btn, 
+span.contastant-views-btn {
+    font-size: .75rem; 
+    margin-bottom: 2.3rem;
+    bottom: 0;
+}
+
+span.contastant-views-btn {
+    right: 1rem;
+}
+.contastant-detail-img-wrapper {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.t-alignment {
+    float: right !important;
+    margin: 0rem 0rem;
+}
+.contastant-bth-area ul li a {
+    font-size: .75rem;
+}
+.contastant-bth-area ul li:first-child {
+    margin-right: 2.5rem;
+}
+.contastant-bth-area {
+    padding: .75rem;
+}
+
+.login-page-headding h1 {
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+}
+.login-page-logo {
+    margin-bottom: 5rem;
+}
+.login-page-content {
+    margin-bottom: 3rem;
+}
+.login-page-content::before {
+    margin-top: -2rem;
+}
+.login-page-content::after {
+    margin-top: 2rem;
+}
+.login-learn-more-btn{
+    margin-top: 5rem;
+}
+.login-learn-more-btn a {
+    font-size: 1rem;
+}
+
+.login-page-content h1 {
+    font-size: 1.5rem;
+}
+.login-privecy {
+    display: inline-block !important;
+    float: left;
+}
+.dont-have-account span {
+    font-size: .7rem;
+}
+.dont-have-account span a {
+    font-size: .7rem;
+}
+.login-method-area-2,
+.login-method-area-1 {
+    margin: 1rem 2rem;
+}
+.login-method-area-1 {
+    text-align: center;
+}
+.dont-have-account {
+    margin-top: 1rem;
+}
+
+
+
+}

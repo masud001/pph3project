@@ -466,9 +466,87 @@ background-image: url(../img/img_web/pexels-photo-2.png);
 #Partners-Clients-carousel img{
 	width: 100px;
 }
-#dashboard-banner{
+#dashboard-banner,
+#dashboard-menu-area{
 	background-color: #252525;
-	/*height: 300px;*/
+	display: none;
+}
+ul.dashboard-mobile-menu li {
+    display: inline;
+    position: relative;
+}
+ul.dashboard-mobile-menu li span.badge{
+position: absolute;
+    right: 0;
+    top: -21px;
+    background-color: #858585;
+    border-radius: 50%;
+    color: #000;
+    padding: .3rem;
+}
+ul.dashboard-mobile-menu {
+    text-align: center;
+}
+
+section#dashboard-mobile-menu-area {
+    background-color: #000;
+    color: #fff;
+}
+
+ul.dashboard-mobile-menu li a {
+    display: inline-block;
+    border: 1px solid #E4116E;
+    border-radius: 50%;
+    margin: .4rem 0rem;
+}
+.dashboard-banner-right-area.for-mobile p {
+    margin-top: 2rem;
+}
+#dashboard-banner-for-mobile-area{
+	background-color: #252525;
+}
+.dashboard-banner-for-mobile-wrapper {
+    margin: 1rem 0rem;
+}
+.dashboard-banner-for-mobile-wrapper .media img{
+	border-radius: 10px;
+	border: 1px solid #fff;
+	width: 250px;
+	height: 250px;
+}
+.dashboard-banner-image-for-mobile{
+	position: relative;
+}
+.for-mobile-upload-img{
+	position: absolute;
+	top:60%;
+	transform: translateY(-50%);
+	left: 50%;
+}
+.for-mobile-upload-img span{
+position: absolute;
+    width: 127px;
+    left: 50%;
+    top: 68%;
+    transform: translate(-50%,100%);
+    cursor: pointer;
+    background-color: rgba(0,0,0,.5);
+    padding: .5rem;
+    border-radius: 30px;
+    color: #fff;
+}
+.for-mobile-upload-img span i{
+	margin-right: .5rem;
+}
+.for-mobile-upload-img input{
+	position: absolute;
+    width: 88px;
+    left: 50%;
+    top: 68%;
+    transform: translate(-50%,100%);
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
 }
 #dashboard-banner div{
 	width: 100%;
@@ -1038,7 +1116,7 @@ span.applicant-status.page-37 {
     bottom: 15px;
     font-size: .7rem;
     box-shadow: 0px 0px 20px 5px #DCDADA;
-
+	right: 15px;
     text-align: center;
 }
 .Matching-Auditions-and-Jobs-title ul.catagori-dropdown{

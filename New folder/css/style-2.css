@@ -76,16 +76,16 @@
 	margin-bottom: 100px;
 }
 .talent-descovery-bg-1{
-	background-image: url(http://via.placeholder.com/100x100);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: absolute;
-	right: 15px;
-	top: 0;
-	width: 40%;
-	height: 100%;
+background-image: url(../img/img_web/pexels-photo-2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    width: 30%;
+    height: 100%;
     box-shadow: 0px 0px 30px 5px #ededed;
 	
 }
@@ -96,7 +96,7 @@
 	bottom: 0;
 	width: 25%;
 	height: 100%;
-	background-image: url(http://via.placeholder.com/100x100);
+	background-image: url(../img/img_web/pexels-photo-1.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	-webkit-background-size: cover;
@@ -197,7 +197,7 @@
 }
 .Nice-Website-Feature-bg-left{
     position: absolute;
-    width: 20%;
+    width: 25%;
     height: 70%;
     left: 0;
     top: 50%;
@@ -206,7 +206,7 @@
 }
 .Nice-Website-Feature-bg-right{
 	position: absolute;
-	width: 20%;
+	width: 25%;
 	height: 70%;
 	right: 0;
 	top: 50%;
@@ -291,9 +291,10 @@
 }
 
 /*Featured Audio and Video start*/
+
+
 #Featured-Audio-Video-area{
 	padding: 3rem 0rem;
-	/*background-color: pink;*/
 	background: linear-gradient(to right, #F8689A , #fff);
 }
 .Featured-Audio-Video-content{}
@@ -311,9 +312,55 @@
 	margin-bottom: 2rem;
 }
 
+.Audio-Video-item {
+    background-image: url(../img/catagori_fitured_img_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 232px; 
+    cursor: pointer;
+}
+.Audio-Video-item-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(241,130,169,.6);
+    padding:1rem;
+}
+.Audio-Video-item-content:hover{
+	background: rgba(241,130,169,0);
+	transition: .4s;
+}
+.Audio-Video-item-play-song-img{
+	background-image: url(../img/img_web/Subtraction_1.png);
+	position: absolute;
+	right: 0;
+	width: 150px;
+	height: 100px;
+}
+.Audio-Video-item-content-bottom{
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    display: inline-block;
+    width: 100%;
+    left: 0;
+}
+.Audio-Video-item-content-bottom span.icon-left{
+	left: 0;
+	color: #fff;
+}
+.Audio-Video-item-content-bottom span.icon-right{
+	right: 0;
+    color: #fff;
+    float: right;
+}
 .single-Audio-Video-area{
 	margin-bottom: 2rem;
 }
+/*
+
 .Audio-Video-item{
 	position: relative;
 	cursor: pointer;
@@ -332,33 +379,20 @@
 	background-color: rgba(255,20,147,0);
 }
 .Audio-Video-item{
-	/*background-image: url(../img/catagori_fitured_img_02.jpg);*/
+
 }
 .Audio-Video-item-content{
-	/*position: relative;*/
-	/*background: linear-gradient(to right, #F8689A , #FFA6C4);*/
+
 }
 .Audio-Video-item-content-top{
 	position: absolute;
 	top: 0;
 	padding: 1rem;
 }
-.Audio-Video-item-content-bottom{
-	position: absolute;
-    bottom: 0;
-    padding: 1rem;
-    display: block;
-    width: 100%;
-}
-.Audio-Video-item-content-bottom span.icon-left{
-	left: 0;
-	color: #fff;
-}
-.Audio-Video-item-content-bottom span.icon-right{
-	right: 0;
-    color: #fff;
-    float: right;
-}
+
+
+*/
+
 .Audio-Video-item-avater-img{
     width: 50px;
     height: 50px;
@@ -428,10 +462,95 @@
 
 
 /**************************page 15 design start**************************/
-
-#dashboard-banner{
+#Partners-Clients-carousel{}
+#Partners-Clients-carousel img{
+	width: 100px;
+}
+#dashboard-banner,
+#dashboard-menu-area{
 	background-color: #252525;
-	height: 300px;
+	display: none;
+}
+ul.dashboard-mobile-menu li {
+    display: inline;
+    position: relative;
+    margin: 0rem 1rem;
+}
+ul.dashboard-mobile-menu li span.badge{
+position: absolute;
+    right: 0;
+    top: -21px;
+    background-color: #858585;
+    border-radius: 50%;
+    color: #000;
+    padding: .3rem;
+}
+ul.dashboard-mobile-menu {
+    text-align: center;
+}
+
+section#dashboard-mobile-menu-area {
+    background-color: #000;
+    color: #fff;
+}
+
+ul.dashboard-mobile-menu li a {
+    display: inline-block;
+    border: 1px solid #E4116E;
+    border-radius: 50%;
+    margin: .4rem 0rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.dashboard-banner-right-area.for-mobile p {
+    margin-top: 2rem;
+}
+#dashboard-banner-for-mobile-area{
+	background-color: #252525;
+}
+.dashboard-banner-for-mobile-wrapper {
+    margin: 1rem 0rem;
+}
+.dashboard-banner-for-mobile-wrapper .media img{
+	border-radius: 10px;
+	border: 1px solid #fff;
+	width: 250px;
+	height: 250px;
+}
+.dashboard-banner-image-for-mobile{
+	position: relative;
+}
+.for-mobile-upload-img{
+	position: absolute;
+	top:60%;
+	transform: translateY(-50%);
+	left: 50%;
+}
+.for-mobile-upload-img span{
+position: absolute;
+    width: 127px;
+    left: 50%;
+    top: 68%;
+    transform: translate(-50%,100%);
+    cursor: pointer;
+    background-color: rgba(0,0,0,.5);
+    padding: .5rem;
+    border-radius: 30px;
+    color: #fff;
+}
+.for-mobile-upload-img span i{
+	margin-right: .5rem;
+}
+.for-mobile-upload-img input{
+	position: absolute;
+    width: 88px;
+    left: 50%;
+    top: 68%;
+    transform: translate(-50%,100%);
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
 }
 #dashboard-banner div{
 	width: 100%;
@@ -462,7 +581,8 @@
     margin-left: .5rem;
 }
 .dashboard-banner-table{
-
+    height: 250px !important;
+    display: table;
 }
 .dashboard-banner-img-upload{}
 .dashboard-banner-right-area{}
@@ -544,6 +664,7 @@
     width: 250px;
     height: 250px;
     position: relative;
+    margin: 1rem 0rem;
 }
 
 
@@ -557,30 +678,51 @@
 #dashboard-menu-area{
 	background-color: #000;
 }
-.dashboard-menu{}
-.dashboard-menu ul{}
-.dashboard-menu ul li{
-	display: inline;
+.nav-section nav.navbar{
+padding:0rem 0rem;
 }
-.dashboard-menu ul li a{
-	display: inline-block;
-	padding:1rem;
-	font-size: 1rem;
-	font-weight: 700;
-	text-transform: capitalize;
-	color: #858585;
-}
-.dashboard-menu ul li a.active{
-	color: #fff !important;
-}
-.dashboard-menu ul li a.active span.badge{
-	color: #fff !important;
-	background-color: #ED1763;
-}
-.dashboard-menu ul li a:hover{
+a.navbar-toggler{
 	color: #fff;
 }
-.dashboard-menu ul li:last-child a{
+ul.navbar-nav.inner-page-main-menu li a {
+    color: #868686;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-weight: 700;
+}
+
+ul.navbar-nav.inner-page-main-menu {
+    width: 100%;
+    justify-content: center;
+}
+ul.navbar-nav.inner-page-main-menu.page-37{
+	justify-content: left;
+}
+
+ul.navbar-nav.inner-page-main-menu li a span i.fa-eye-slash{
+	margin-right: .5rem;
+}
+ul.navbar-nav.inner-page-main-menu li a span.badge {
+    background-color: #858585;
+    color: #252525;
+    margin-left: .5rem;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 18px;
+}
+ul.navbar-nav.inner-page-main-menu li.active a{
+	color: #fff;
+}
+ul.navbar-nav.inner-page-main-menu li.active a span.badge{
+	background-color: #E10F72;
+	color: #fff;
+}
+ul.navbar-nav.inner-page-main-menu li a:hover{
+	color: #fff;
+}
+ul.navbar-nav.inner-page-main-menu li:last-child a{
 border-radius: 30px;
     border: 1px solid #E91567;
     padding: .5rem 1rem;
@@ -592,8 +734,7 @@ border-radius: 30px;
     color: #fff;
     font-weight: normal;
 }
-.dashboard-menu ul li:last-child{
-
+ul.navbar-nav.inner-page-main-menu li:last-child{
     margin-left: 5rem;
 }
 li.user-addition{
@@ -602,13 +743,17 @@ position: absolute;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
     right: 200px;
 }
 li.user-addition a{
 	color: #fff !important;
+}
+li.user-addition a span i {
+    font-size: 1.2rem;
+    margin-left: -5px;
 }
 .dashboard-menu ul li a span i.fa-eye-slash{
 	margin-right: 1rem;
@@ -676,11 +821,11 @@ li.user-addition a{
     cursor: pointer;
 }
 .smaaji-img {
-    width:  100px;
-    height: 100px;
+    width:  70px;
+    height: 70px;
     float: left;
     border-radius: 50%;
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 .smaaji-img img {
     width:  100%;
@@ -692,6 +837,7 @@ li.user-addition a{
     display: table;
     position: relative;
     height: 100%;
+    width: 100%;
 }
 
 .smaaji-content-title h1 {
@@ -890,6 +1036,7 @@ span.smaaji-content-bottom-left i {
     display: inline-block;
     float: left;
     margin-right: 1rem;
+    margin-left: 10px;
 }
 .applicant-avater img{
     border-radius: 50%;
@@ -922,6 +1069,11 @@ span.smaaji-content-bottom-left i {
     text-transform: uppercase;
     color: #1EAA49;
 }
+span.applicant-status.page-37 {
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
 .applicant-status span i.fa-check-circle{
 	margin-right: .3rem;
 }
@@ -942,6 +1094,7 @@ span.smaaji-content-bottom-left i {
 }
 .applicant-masage{
 	margin-top: 2rem;
+	position: relative;
 }
 .applicant-masage p{
 	color: #EB1663;
@@ -957,21 +1110,527 @@ span.smaaji-content-bottom-left i {
 
 }
 .applicant-applied-btn a{
-    color: #99C1DA;
-    background-color: #212121;
+    color: #fff;
+    background-color: #E6126B;
     text-transform: uppercase;
-    padding: .5rem 1.5rem;
+    padding: .7rem 3rem;
     border-radius: 30px;
-    display: inline-block;
+    display: block;
     position: absolute;
     bottom: 15px;
-    right: 15px;
     font-size: .7rem;
     box-shadow: 0px 0px 20px 5px #DCDADA;
+	right: 15px;
+    text-align: center;
+}
+.Matching-Auditions-and-Jobs-title ul.catagori-dropdown{
+	float: left;
+}
+.Matching-Auditions-and-Jobs-title.catagori-dropdown-area {
+    display: -webkit-box;
+    display: box;
+    width: 100%;
+    position: relative;
+}
+.contastant-sort-area {
+    position: absolute;
+    right: 0;
+    top: 69%;
+    transform: translateY(-50%);
+    z-index: 1100;
+}
+.applicant-masage.page-34 a {
+    position: absolute;
+    right: 0;
+    color: #E6126B;
+    font-size: .8rem;
+    font-weight: 600;
+    bottom: 0;
+}
+span.contastant-sort ul li a span i.fa-exchange-alt {
+    position: relative;
+    transform: rotate(90deg);
+    color: #A4A3A3;
+}
+.page-40-promo{
+	margin-bottom: 2rem;
+}
+/********************page -13 Application design area end********************/
+/********************page -14 Application design area start********************/
+
+.Favourites-aplicant-wrapper {
+    margin-bottom: 2rem;
+}
+
+.Favourites-aplicant-image img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Favourites-aplicant-image span {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+.Favourites-aplicant-image span i {
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight: normal;
+    background: transparent;
+}
+.Favourites-aplicant-image span i:hover{
+	color: #E6126B;
+}
+.Favourites-aplicant-details {
+    float: left;
+    display: table;
+    width: 70%;
+    height: auto;
+}
+
+.aplicant-body-details {
+    float: right;
+    display: table;
+}
+.Favourites-aplicant-details a {
+    color: #919191;
+    text-transform: capitalize;
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+.Favourites-aplicant-details p {
+    color: #E6126B;
+    font-size: .7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.Favourites-aplicant-details-wrapper {
+    padding: .5rem;
+    height: 100%;
+    display: flex;
+}
+.location {
+    position: relative;
+    top: .6rem;
+}
+.single-Favourites-aplicant {
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 20px 5px #ededed;
+}
+.aplicant-body-details p {
+    font-size: .7rem;
+}
+
+/********************page -14 Application design area end********************/
+/********************page -16 Application design area start********************/
+/* The container */
+.catagori-selection-area {
+    margin-top: 1rem;
+    display: inline-block;
+}
+.catagori-selection-wrapper {
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 20px 1px #D9D9D9;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.catagori-selection-heading h1 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #252525;
+}
+.btn-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #95989B;
+    font-weight: 600;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.btn-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.btn-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 2px solid #868686;
+    border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.btn-container:hover input ~ .btn-checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.btn-container input:checked ~ .btn-checkmark {
+    background-color: #FF75A4;
+    border: 0px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.btn-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.btn-container input:checked ~ .btn-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.btn-container .btn-checkmark:after {
+    left: 10px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 
-/********************88page -13 Application design area end*******************88*/
+select.form-control-style,
+select.form-control-Advanced{
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 20px 1px #D9D9D9;
+    
+
+
+}
+select.form-control-Advanced{
+	color: #FF0392;
+}
+.advanched-catagori-selection {
+    margin-bottom: 1.5rem;
+}
+.filter-now-btn{
+	background-color: #252525;
+	display: block;
+	padding: .9rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	border-radius: 30px;
+}
+.filter-now-btn:hover{
+	color: #fff;
+}
+.catagori-filter-now-btn {
+    margin-bottom: 2rem;
+}
+
+.audition-page-heading h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #252525;
+    margin-bottom: .5rem;
+}
+
+.audition-page-heading p {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #858585;
+}
+
+form.audition-page-form-group input {
+    position: relative;
+    padding-left: 2rem;
+    border-radius: inherit;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #95989B;
+}
+
+form.audition-page-form-group span {
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    transform: translateY(-52%);
+    color: #95989B;
+}
+.audition-page-heading-area {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.audition-page-search {
+    padding-top: 1rem;
+}
+
+.thumbnail-area {
+    display: flex;
+}
+.applicant-dezignation.participant h1 {
+    font-size: .8rem;
+    margin-top: .4rem;
+}
+.applicant-dezignation.participant span {
+    margin-left: 0.4rem;
+}
+.audition-participant-thumbnail img {
+    width: 100%;
+    height: 140px;
+        border-radius: 0px 0px 0px 10px;
+}
+.participator-application-area {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.participator-application-area h1 {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.participator-application-area p.designetion {
+    margin-bottom: 1rem;
+    color: #8F8D8E;
+    font-size: 1rem;
+}
+
+.participator-application-area p.designetion span {
+    margin-left: 3rem;
+}
+
+.participator-application-area p.designetion span {
+    margin-left: 3rem;
+    color: #ED1763;
+}
+.participator-application-folio {
+    position: absolute;
+    bottom: 9px;
+    display: inline-block;
+    width: 89%;
+}
+
+span.participator-application-left i {
+    margin-right: 1rem;
+    color: #7F7F7F;
+}
+
+span.participator-application-left {
+    color: #ED1763;
+    position: absolute;
+    bottom: 8px;
+}
+
+span.participator-application-right {
+    float: right;
+    color: #858585;
+}
+
+span.participator-application-right span i {
+    margin-left: .5rem;
+}
+
+span.participator-application-apply-btn a {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ED1763;
+    padding: .5rem 1.5rem;
+    border-radius: 30px;
+    margin-left: 3rem;
+    display: inline-block;
+}
+.participator-area-wrapper {
+    border: 1px solid #F4F4F4;
+    box-shadow: 0px 0px 20px 5px #F4F4F4;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-bottom: 2rem;
+}
+/********************page -16 Application design area end********************/
+/********************page -17 Application design area start********************/
+.fetured-talent-section-head{
+	background-color: #F41075;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+.fetured-talent-section-head h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: #fff;
+	margin-bottom: 1rem;
+}
+.fetured-talent-slider div.owl-dots button.owl-dot span{
+	background-color: transparent !important;
+    border: 1px solid #fff;
+    width: 10px;
+    height: 10px;
+}
+.fetured-talent-slider div.owl-dots button.owl-dot.active span{
+	background-color: #fff !important;
+}
+
+.fetured-talent-slider div.single-Favourites-aplicant{
+	box-shadow: none;
+	background-color: #fff;
+}
+.all-telent-directory{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+
+/********************page -17 Application design area end********************/
+/********************page -18 Application design area start********************/
+.dashboard-menu.text-center.Profile-details-page ul li:last-child a{
+	text-transform: capitalize;
+	background-color: #EB1663;
+	color: #fff;
+}
+.Profile-details-page-form-area{
+	padding: 2rem;
+	border: 1px solid #EDEDEC;
+	box-shadow: 0px 0px 20px 5px #EDEDEC;
+	border-radius: 1rem;
+}
+.Profile-details-page-form-area h1{
+	text-transform: uppercase;
+	color: #BCBCBC;
+	margin-bottom:1rem;
+
+}
+.error-alart p {
+    position: absolute;
+    bottom: 25px;
+    color: #E5126E;
+}
+.Profile-details-page-form-area div.form-group {
+    width: 50%;
+}
+.edit-pencil{
+	position: absolute;
+	right: 0;
+	color: #E81368;
+	top: 0;
+}
+label span i.fa-facebook-f,
+label span i.fa-instagram{
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: .4rem;
+}
+label span i.fa-facebook-f{
+	background-color: #3A5A9B;
+	color: #fff;
+}
+label span i.fa-instagram{
+	color: #D04868;
+	background-color: #fff;
+}
+.registration-form div.form-group-about textarea#exampleFormControlTextarea1{
+	background-color: transparent;
+}
+.registration-form div.form-group-about textarea#exampleFormControlTextarea1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+}
+
+.registration-form div.form-group-about textarea#exampleFormControlTextarea1:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: red;
+}
+
+.registration-form div.form-group-about textarea#exampleFormControlTextarea1::-ms-input-placeholder { /* Microsoft Edge */
+    color: red;
+}
+.form-group-about{
+	margin-top: 50%;
+}
+.profile-detail-page div.catagori-selection-area label.btn-container{
+	font-size: .7rem;
+}
+.margin-50px{
+	margin:50px 0px;
+	display: block;
+}
+.margin-25px{
+	margin: 25px;
+	display: block;
+}
+.Matching-Auditions-and-Jobs-title{
+	display: block;
+}
+.Matching-Auditions-and-Jobs-title h1 span {
+    font-size: .7rem;
+    color: #95989A;
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+.Matching-Auditions-and-Jobs-title h1 span a {
+    color: #E61369;
+}
+.Auditions-time-detail {
+    color: #A4A3A3;
+    padding:15px;
+}
+
+.Auditions-time-detail h1 {
+    margin-bottom: 40px;
+}
+
+.Auditions-time-detail p span i {
+    margin-right: 1rem;
+}
+.Auditions-time-detail p{
+	margin: 5px 0px;
+}
+.Matching-Auditions-and-Jobs-title a.save-btn{
+	color: #fff;
+	padding: .5rem 2rem;
+	text-transform: uppercase;
+	font-size: 1rem;
+	background-color: #858585;
+	border-radius: 30px;
+	float: right;
+	display: inline-block;
+}
+.magint-100{
+	display: block;
+	margin: 100px;
+
+}
+
+
+/********************page -18 Application design area end********************/
 
 
 /**********************registration page design start**********************/
@@ -986,7 +1645,6 @@ span.smaaji-content-bottom-left i {
 .login-page-area{
     background-color: #fff;
     position: relative;
-    width: 75%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 0px 20px 5px #CCCCCC;
@@ -1058,9 +1716,13 @@ span.smaaji-content-bottom-left i {
 .registration-method-1 ul li a.facebook{background-color: #445994;}
 .registration-method-1 ul li a.twitter{background-color: #7BA7D9;}
 .registration-method-1 ul li a.google{background-color: #EE2524;}
-.registration-form div.form-group{
+.registration-form div.form-group,
+.registration-form div.form-group-about{
     margin-bottom: 1rem !important;
+    position: relative;
 }
+
+
 .login-method-area-2{
 	margin-left: 1rem;
 	margin-right: 2rem; 
@@ -1426,3 +2088,84 @@ a.login-continue-btn {
 	margin-right: 1rem;
 	font-size: 1rem;
 }
+
+
+
+/*page 33 design start*/
+.page-33Advanced-Search-Options ul {
+    padding:  .375rem .75rem;
+    line-height: 1.5rem;
+    /*text-align: center;*/
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 20px 1px #D9D9D9;
+    font-size:1rem
+}
+.page-33Advanced-Search-Options ul li{
+	position: relative;
+}
+.page-33Advanced-Search-Options ul li a:{
+    color:#F41075
+}
+.age-class p{
+	font-size: .75rem;
+	color: #858585;
+	font-weight: 700;
+	display: block;
+	margin-bottom: .5rem;
+}
+.age-class select{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #858585;
+    border-radius: 0px;
+}
+.page-33-Search-Options {
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 20px 1px #D9D9D9;
+    padding:1rem;
+    position:absolute;
+    background-color:#fff;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1300;
+    z-index: 1300;
+     margin-left: -9px;
+    margin-top: 7px;
+}
+.page-33Advanced-Search-Options ul li a:hover{
+	color:#F41075;
+}
+.page-33Advanced-Search-Options ul:hover .page-33-Search-Options{
+	visibility: visible;
+	opacity: 1;
+	z-index: 1300;
+}
+.page-33Advanced-Search-submit-btn{
+	text-align: center;
+}
+.page-33Advanced-Search-submit-btn a button{
+    border: none;
+    background-color: #F41075;
+    color: #fff;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 30px;
+    margin-bottom: .5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.save-searching-option{}
+.save-searching-option a {
+    color: #707170;
+    font-size: .7rem;
+    margin-right: 49px;
+}
+.save-searching-option a:hover{
+	color: #F41075;
+}
+.save-searching-option a:last-child{
+	margin-right: 0px;
+}
+/*page 33 design end*/

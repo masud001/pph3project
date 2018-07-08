@@ -1,4 +1,60 @@
+@media (min-width: 320px) {
+    .toggle-button-area{display: inline-block;}
+    .login-log-out-btn{display: none;}
+.registration-area, .login-page-area {
+    width: 100%;
+}
+#dashboard-banner div{
+    text-align: center !important;
+    
+}
+
+
+
+.talent-descovery-bg-1{display: none;}
+.talent-descovery-bg-2{display: none;}
+#page-29-slider-section div.owl-dots{
+    display: none;
+}
+.page-29-slider-left-img{
+    float: none;
+}
+.page-29-slider-left-img {
+    width: 250px;
+    height: 117px;
+    position: relative;
+}
+.page-29-slider-left-img img{
+    border-radius: 10px;
+}
+.page-29-slider-left-content{
+    margin-left: 0rem;
+}
+.talent-descovery-img-background{display:block;}
+.Nice-Website-Feature-bg-left,.Nice-Website-Feature-bg-right{display: none;}
+#banner-1 div.owl-dots{display: none;}
+.talent-descovery-content,.Partners-and-Clients-content{
+    text-align: center;
+}
+.Mobile-Apps-big-img{
+    float: none;
+    margin: 1rem auto;
+}
+.Credit-detail-btn{
+    display: list-item;
+    margin-top: 20px;
+    list-style: none;
+}
+.single-Business-Services{
+    margin-bottom: 30px;
+}
+.company-value-table, .vission-table{
+    margin-top: 15px;
+}
+}
+
 @media (max-width:320px){
+
 .login-page-headding {
     margin-bottom: 3rem;
 }
@@ -219,7 +275,8 @@ a.login-continue-btn {
     height: 40px;
 }
 .brand-logo a img{
-	height: 40px;
+	height: auto;
+    width: 187px;
 }
 .catagori-single-img {
     width: 150px;
@@ -402,8 +459,26 @@ a.login-continue-btn {
 .dont-have-account {
     margin-top: 1rem;
 }
+.song-progress-bar ul li {
+    display: inline-block;
+    padding: 1px 10%;
+}
+.dashboard-banner-for-mobile-wrapper .media img {
+    width: 200px;
+    height: 213px;
+}
 
+.media-body .dashboard-banner-left-area h1 {
+    font-size: 1.5rem;
+}
 
+.media-body .dashboard-banner-left-area h1 span {
+    margin: 0rem .5rem 0rem 0rem;
+}
+
+.media-body .dashboard-banner-left-area span {
+    margin: .5rem;
+}
 
 
 
@@ -445,6 +520,7 @@ a.login-continue-btn {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px){
+
 .registration-method-1 ul li {
     display: inline;
     padding: 0rem 0rem;
@@ -480,6 +556,10 @@ a.login-continue-btn {
 .go-back-btn {
     text-align: left;
     margin-bottom: 1rem;
+}
+#dashboard-banner-for-mobile-area,
+#dashboard-mobile-menu-area{
+    display: block;
 }
 .audition-area-wrapper > h1 {
     font-size: 1rem;
@@ -603,11 +683,45 @@ span.contastant-views-btn {
 
     display: inline-block;
 }
+.registration-area, .login-page-area {
+    width: 75%;
+}
+
+#banner-1 div.owl-dots{display: block;}
+.talent-descovery-content,.Partners-and-Clients-content{
+    text-align: right;
+}
+.Mobile-Apps-big-img{
+    float: left;
+    margin: 1rem auto;
+}
+.Credit-detail-btn{
+    display: list-item;
+    margin-top: 0px;
+    list-style: none;
+}
+.single-Business-Services{
+    margin-bottom: 0px;
+}
+.company-value-table, .vission-table{
+    margin-top: 0px;
+}
+
+
+.song-progress-bar ul li {
+    padding: 0px 13%;
+}
+#page-29-slider-section div.owl-dots{
+    display: inline-block;
+}
+.page-29-slider-left-content{
+    margin-left: 2rem;
+}
 
 
 
 }
-
+/*****************************************************************************************/
 /*// Large devices (desktops, 992px and up)*/
 @media (max-width: 991px){
 /*index.html page responsive start*/
@@ -621,7 +735,8 @@ span.contastant-views-btn {
 .user-logo a img.user-avater,
 .user-logo a img.user-avater,
 .user-logo span.user-name,
-.user-logo span.user-search{
+.user-logo span.user-search,
+.user-logo span.login-log-out-btn{
 	display: none;
 }
 
@@ -651,11 +766,34 @@ span.contastant-views-btn {
 @media (min-width: 992px) {
 /*index.html page responsive start*/
 /*responsive mobile menu*/
+.login-log-out-btn{display: inline-block;}
+.toggle-button-area{display: none;}
+.talent-descovery-bg-1{display: inline-block;}
+.talent-descovery-bg-2{display: inline-block;}
+.talent-descovery-img-background{display: none;}
+.Nice-Website-Feature-bg-left,.Nice-Website-Feature-bg-right{display: block;}
+#dashboard-banner,
+#dashboard-menu-area{
+    display: block;
+}
+#dashboard-banner-for-mobile-area,
+#dashboard-mobile-menu-area{
+    display: none;
+}
+.page-29-slider-left-img {
+    width: 350px;
+    height: 175px;
+    float: right;
+}
+.song-progress-bar ul li {
+    padding: 0px 10%;
+}
 #mobile-menu-section-wrapper{
     visibility: hidden;
 }
 .brand-logo a img {
-    height: 50px;
+    height: 33px;
+    margin-top: .4rem;
 }
 .user-logo a > img {
     width: 50px;
@@ -699,6 +837,11 @@ span.contastant-views-btn {
 .catagori-single-img {
     width: 275px;
     height: auto;
+}
+.single-promo-img h1 {
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+    padding: 1rem;
 }
 /*index_02.html page responsive start*/
 

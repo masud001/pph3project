@@ -144,6 +144,21 @@ $(document).ready(function(){
       nav:false,
       dots:true,
       lazyLoad:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:false
+          },
+          576:{
+              items:2,
+              nav:false
+          },
+          992:{
+              items:3,
+              nav:false
+              
+          }
+      }
   })
 });
 
@@ -181,6 +196,21 @@ $(document).ready(function(){
       nav:false,
       dots:true,
       lazyLoad:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:false
+          },
+          576:{
+              items:2,
+              nav:false
+          },
+          992:{
+              items:3,
+              nav:false
+              
+          }
+      }
   })
 });
 
@@ -302,7 +332,7 @@ $(document).ready(function(){
       touchDrag: true,
       margin:10,
       responsiveClass:true,
-      items:5,
+      items:4,
       center: true,
       nav:false,
       dots:false,
@@ -314,8 +344,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.single-Audio-Video-item').owlCarousel({
       loop:true,
-      autoplay: true,
-      autoHeight:true,
+      autoplay: false,
+      autoHeight:false,
       mouseDrag: false,
       touchDrag: true,
       margin:0,
@@ -325,8 +355,121 @@ $(document).ready(function(){
       nav:false,
       dots:false,
       lazyLoad:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:false
+          },
+          576:{
+              items:2,
+              nav:false
+          },
+          992:{
+              items:4,
+              nav:false
+              
+          }
+      }
   })
 });
+
+
+// fetured-talent-slider start
+$(document).ready(function(){
+  $('.fetured-talent-slider').owlCarousel({
+      loop:true,
+      autoplay: true,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:5,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:false
+          },
+          576:{
+              items:2,
+              nav:false
+          },
+          992:{
+              items:4,
+              nav:false
+              
+          }
+      }
+  })
+});
+
+
+// fetured-talent-slider start
+$(document).ready(function(){
+  $('#brodcast-slider-active').owlCarousel({
+      loop:false,
+      autoplay: false,
+      autoHeight:false,
+      margin:0,
+      nav:false,
+      dots:false,
+      responsive:{
+          0:{
+              items:1
+          },
+          480:{
+              items:2
+          },
+          768:{
+              items:3
+          },
+          992:{
+              items:4
+          }
+      }
+  });
+
+
+  var owl = $('#brodcast-slider-active');
+  owl.owlCarousel();
+  // // Go to the next item
+  $('.customNextBtn').click(function() {
+      owl.trigger('next.owl.carousel');
+  })
+  // // Go to the previous item
+  $('.customPrevBtn').click(function() {
+      // With optional speed parameter
+      // Parameters has to be in square bracket '[]'
+      owl.trigger('prev.owl.carousel', [300]);
+  })
+
+
+});
+
+
+// page 29 slider
+$(document).ready(function(){
+  $('.page-29-slider-area').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:false,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:0,
+      responsiveClass:true,
+      items:1,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+
 
 // magnificent popup init
 $(document).ready(function(){

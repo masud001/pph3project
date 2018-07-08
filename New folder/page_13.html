@@ -31,8 +31,6 @@
 	<!-- theme style css -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style-2.css">
-	<!-- massage box design css -->
-	<link rel="stylesheet" href="css/sms.css">
 	<!-- responsive css -->
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -79,6 +77,9 @@
 							<div class="main-menu-area" id="">
 								<ul class="main-manu">
 									<li class="active">
+										<a class="" href="#">Dashboard</a>
+									</li>
+									<li class="">
 										<a class="" href="#">Auditions</a>
 									</li>
 									<li class="">
@@ -95,19 +96,20 @@
 							<!-- brand logo -->
 				  			<div class="brand-logo">
 				  				<a href="#">
-				  					<img src="http://via.placeholder.com/150x50" class="img-fluid" alt="brand logo">
+				  					<img src="img/img_web/t2c-logo@2x.png" class="img-fluid" alt="brand logo">
 				  				</a>
 				  			</div>
 							<!-- user detail -->
 				  			<div class="user-info-area-right pull-right">
 				  				<div class="user-logo">
 				  					<a href="#">
-				  						<img src="http://via.placeholder.com/50x50" class="img-fluid user-avater" alt="user logo">
+				  						<img src="img/img_web/avatar_1.png" class="img-fluid user-avater" alt="user logo">
 				  					</a>
 				  					<span class="user-name">
 				  						<a href="">
 				  							<p>James Obe... </p>
 				  							<p class="user-dasignetion">Model / Artist</p>
+				  							<span><span>Talent /</span> Casting Pro</span>
 				  						</a>
 				  						
 				  					</span>
@@ -128,8 +130,12 @@
 				  						</span>
 				  					</span>
 
+				  					<span class="login-log-out-btn">
+				  						<span><i class="fas fa-sign-out-alt"></i></span>
+				  					</span>
+
 				  					<a href="#">
-				  						<img src="http://via.placeholder.com/50x50" class="img-fluid user-avater-2" alt="user logo">
+				  						<img src="img/img_web/avatar_1.png" class="img-fluid user-avater-2" alt="user logo">
 				  					</a>
 				  				</div>
 				  			</div>	
@@ -186,29 +192,130 @@
 				</div>
 			</div>
 		</section>
-		<!-- dashboard slider area end -->
 
-		<section id="dashboard-menu-area">
+		<section  id="dashboard-menu-area" class="nav-section">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container">
+					<!-- mobile menu togglebtn -->
+					<a 
+						href="#navbarCollapes" 
+						data-toggle="collapse" 
+						class="navbar-toggler">
+						<span><i class="fas fa-bars"></i></span>
+					</a>
+
+					<div class="collapse navbar-collapse" id="navbarCollapes">
+						<ul class="navbar-nav inner-page-main-menu">
+					      	<li class="active">
+					        <a class="" href="#">Dashboard
+					        	<span class="sr-only">(current)</span></a>
+					      	</li>
+						    <li class="">
+						        <a class="" href="#">Applications<span class="badge">25</span></a></li></a>
+						    </li>
+						    <li class="">
+						        <a class="" href="#">Messages<span class="badge">25</span></a></li></a>
+						    </li>
+						    <li class="">
+						        <a class="" href="#">Concerts<span class="badge">25</span></a></li></a>
+						    </li>
+						    <li class="">
+						        <a class="" href="#">Credit</a>
+						    </li>
+						    <li class="">
+						        <a class="" href="#">Media<span class="badge">25</span></a></li></a>
+						    </li>
+						    <li class="">
+						        <a class="" href="#">Edit Profile</a>
+						    </li>
+	    				</ul>
+					</div>	
+				</div>
+			</nav>
+		</section>
+
+
+		<section id="dashboard-banner-for-mobile-area">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="dashboard-menu-wrapper">
-							<div class="dashboard-menu text-center">
-								<ul>
-									<li><a href="#">Dashboard</a></li>
-									<li><a href="#">Applications<span class="badge">25</span></a></li>
-									<li><a href="#">Favourites<span class="badge">6</span></a></li>
-									<li><a class="active" href="#">Messages<span class="badge">10</span></a></li>
-									<li><a href="#">Credit</a></li>
-									<li><a href="#">Media<span class="badge">45</span></a></li>
-									<li><a href="#"><span><i class="far fa-eye-slash"></i></span>Edit profile</a></li>
-								</ul>
+						<div class="dashboard-banner-for-mobile-wrapper">
+							<div class="media">
+								<div class="dashboard-banner-image-for-mobile">
+									<img class="mr-3" src="img/singlecatagoriimg01.jpg" alt="Generic placeholder image">
+									<div class="for-mobile-upload-img">
+										<span><i class="far fa-image"></i>Update Photo</span>
+										<input type="file" title="Update Photo" class="" accept="file_extension|video/*|media_type" required="">
+									</div>
+								</div>
+
+								<div class="media-body">
+									<div class="dashboard-banner-left-area">
+										<h1><span><i class="fab fa-instagram"></i></span>James Obednego</h1>
+										<p>Model / Artist / Extra / Photographer / Dancer</p>
+										<span><i class="far fa-user"></i> 200</span>
+										<span><i class="far fa-user"></i> 200</span>
+										<span><i class="far fa-user"></i> 200</span>
+
+										<div class="dashboard-banner-right-area for-mobile">
+											<p>They say lifes not easy, the truth is it isn't but thats not makes it intersti... <a href="#">see all</a></p>
+										</div>
+									</div>
+
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+		<section id="dashboard-mobile-menu-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="dashboard-mobile-menu">
+							<li>
+								<a href="#">
+								<span><i class="far fa-heart"></i></span>
+								
+								</a>
+								<span class="badge">25</span>
+							</li>
+							<li>
+								<a href="#">
+								<span><i class="far fa-envelope"></i></span>
+								
+								</a>
+								<span class="badge">25</span>
+							</li>
+							<li>
+								<a href="#">
+								<span><i class="far fa-heart"></i></span>
+								
+								</a>
+								<span class="badge">25</span>
+							</li>
+							<li>
+								<a href="#">
+								<span><i class="far fa-heart"></i></span>
+								
+								</a>
+								<span class="badge">25</span>
+							</li>
+							<li>
+								<a href="#">
+								<span><i class="far fa-heart"></i></span>
+								
+								</a>
+								<span class="badge">25</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- dashboard slider area end -->
+
 
 		<!-- Matching Auditions and Jobs area start -->
 		<section id="Matching-Auditions-and-Jobs-area">
@@ -216,183 +323,170 @@
 				<div class="row">
 					<div class="col-md-8">
 						<div class="Matching-Auditions-and-Jobs-wrapper">
-							<div class="Matching-Auditions-and-Jobs-title show-all-sms-area">
-								<h1>Messages</h1>
-								<span class="contastant-sort show-all-sms-area">
-										<ul>
-											<li>
-												<a href="#">
-													
-													SHOW All messages
-													<i class="fas fa-angle-down"></i>
-												</a>
-												<ul class="contastant-sort-dropdown">
-													<li><a href="#">Sort item</a></li>
-													<li><a href="#">Sort item lorem</a></li>
-													<li><a href="#">Sort item</a></li>
-													<li><a href="#">Sort item</a></li>
-												</ul>
-											</li>
-										</ul>
-									</span>
+							<div class="Matching-Auditions-and-Jobs-title">
+								<h1>Applications</h1>
 							</div>
-						</div>
-						<div class="sms-box-area">	
-							<div class="row">
-								<div class="col-md-6">
-									<div class="contact-list">
-										<ul>
-											<li>
-												<a href="#">
-													<div class="single-person">
-														<span class="person-img">
-															<i class="fas fa-circle"></i>
-														</span>
-													</div>
-													<div class="persone-address">
-														<h1>Mathew Omeike</h1>
-														<p>Hello Matt, How are you</p>
-													</div>
-													<div class="talking-time">
-														1:20 PM<span class="live-img">
-														<i class="fas fa-circle"></i>
+							<div class="main-aplication-area">
+								<div class="single-aplicant-wrapper">
+									<!-- single item area start -->
+									<div class="single-applicant-item">
+										<div class="applicant-avater">
+											<img src="img/img_web/avatar_5.png" alt="aplicant image">
+										</div>
+										<div class="applicant-dezignation">
+											<h1>
+												Talent2Celeb Studios 
+												<span class="applicant-status"> 
+													<span>
+														<i class="fas fa-check-circle"></i>
 													</span>
-													</div>
-													
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<div class="single-person">
-														<span class="person-img">
-															<i class="fas fa-circle"></i>
-														</span>
-													</div>
-													<div class="persone-address">
-														<h1>Mathew Omeike</h1>
-														<p>Hello Matt, How are you</p>
-													</div>
-													<div class="talking-time">
-														1:20 PM<span class="live-img">
-														<i class="fas fa-circle"></i>
+													VERIFIED
+												</span>
+											</h1> 
+											<p>Casting Professionals</p>
+											
+											<span><i class="far fa-star"></i></span>
+										</div>	
+										<div class="applicant-descriptions">
+											<h2>Runway Model Needed For Photo shoot</h2>
+											<p>A theme is the set of colors that will be applied to the Angular Material components. The library's approach to theming is based on the guidance from</p>
+
+											<div class="applicant-masage">
+												<p>
+													<span>
+														<i class="far fa-envelope"></i>
 													</span>
-													</div>
-													
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<div class="single-person">
-														<span class="person-img">
-															<i class="fas fa-circle"></i>
-														</span>
-													</div>
-													<div class="persone-address">
-														<h1>Mathew Omeike</h1>
-														<p>Hello Matt, How are you</p>
-													</div>
-													<div class="talking-time">
-														1:20 PM<span class="live-img">
-														<i class="fas fa-circle"></i>
-													</span>
-													</div>
-													
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<div class="single-person">
-														<span class="person-img">
-															<i class="fas fa-circle"></i>
-														</span>
-													</div>
-													<div class="persone-address">
-														<h1>Mathew Omeike</h1>
-														<p>Hello Matt, How are you</p>
-													</div>
-													<div class="talking-time">
-														1:20 PM<span class="live-img">
-														<i class="fas fa-circle"></i>
-													</span>
-													</div>
-													
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<div class="single-person">
-														<span class="person-img">
-															<i class="fas fa-circle"></i>
-														</span>
-													</div>
-													<div class="persone-address">
-														<h1>Mathew Omeike</h1>
-														<p>Hello Matt, How are you</p>
-													</div>
-													<div class="talking-time">
-														1:20 PM<span class="live-img">
-														<i class="fas fa-circle"></i>
-													</span>
-													</div>
-													
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<div class="single-person">
-														<span class="person-img">
-															<i class="fas fa-circle"></i>
-														</span>
-													</div>
-													<div class="persone-address">
-														<h1>Mathew Omeike</h1>
-														<p>Hello Matt, How are you</p>
-													</div>
-													<div class="talking-time">
-														1:20 PM<span class="live-img">
-														<i class="fas fa-circle"></i>
-													</span>
-													</div>
-													
-												</a>
-											</li>
-											<li>
-												<a href="#">
-													<div class="single-person">
-														<span class="person-img">
-															<i class="fas fa-circle"></i>
-														</span>
-													</div>
-													<div class="persone-address">
-														<h1>Mathew Omeike</h1>
-														<p>Hello Matt, How are you</p>
-													</div>
-													<div class="talking-time">
-														1:20 PM<span class="live-img">
-														<i class="fas fa-circle"></i>
-													</span>
-													</div>
-													
-												</a>
-											</li>
-										</ul>
-									</div>	
-								</div>
-								<div class="col-md-6">
-									<div class="frame">
-										<ul class="sms-list"></ul>
-							            <div>
-							                                        
-					                    <div class="write-sms">
-					                        <input class="form-control" placeholder="Type a message"/>
-					                        <span><i class="fas fa-arrow-right"></i></span>
-					                    </div> 
-							                
-							            </div>
+													10
+												</p>
+												<p><span> Lagos </span> Actors/ Extras</p>
+											</div>	
+											<div class="applicant-applied-btn">
+												<a href="#">APPLIED</a>
+											</div>
+										</div>
 									</div>
-								</div> 
+									<!-- single item area start -->
+									
+									<!-- single item area start -->
+									<div class="single-applicant-item">
+										<div class="applicant-avater">
+											<img src="img/img_web/avatar_5.png" alt="aplicant image">
+										</div>
+										<div class="applicant-dezignation">
+											<h1>
+												Talent2Celeb Studios 
+												<span class="applicant-status"> 
+													<span>
+														<i class="fas fa-check-circle"></i>
+													</span>
+													VERIFIED
+												</span>
+											</h1> 
+											<p>Casting Professionals</p>
+											
+											<span><i class="far fa-star"></i></span>
+										</div>	
+										<div class="applicant-descriptions">
+											<h2>Runway Model Needed For Photo shoot</h2>
+											<p>A theme is the set of colors that will be applied to the Angular Material components. The library's approach to theming is based on the guidance from</p>
+
+											<div class="applicant-masage">
+												<p>
+													<span>
+														<i class="far fa-envelope"></i>
+													</span>
+													10
+												</p>
+												<p><span> Lagos </span> Actors/ Extras</p>
+											</div>	
+											<div class="applicant-applied-btn">
+												<a href="#">APPLIED</a>
+											</div>
+										</div>
+									</div>
+									<!-- single item area start -->
+									<!-- single item area start -->
+									<div class="single-applicant-item">
+										<div class="applicant-avater">
+											<img src="img/img_web/avatar_5.png" alt="aplicant image">
+										</div>
+										<div class="applicant-dezignation">
+											<h1>
+												Talent2Celeb Studios 
+												<span class="applicant-status"> 
+													<span>
+														<i class="fas fa-check-circle"></i>
+													</span>
+													VERIFIED
+												</span>
+											</h1> 
+											<p>Casting Professionals</p>
+											
+											<span><i class="far fa-star"></i></span>
+										</div>	
+										<div class="applicant-descriptions">
+											<h2>Runway Model Needed For Photo shoot</h2>
+											<p>A theme is the set of colors that will be applied to the Angular Material components. The library's approach to theming is based on the guidance from</p>
+
+											<div class="applicant-masage">
+												<p>
+													<span>
+														<i class="far fa-envelope"></i>
+													</span>
+													10
+												</p>
+												<p><span> Lagos </span> Actors/ Extras</p>
+											</div>	
+											<div class="applicant-applied-btn">
+												<a href="#">APPLIED</a>
+											</div>
+										</div>
+									</div>
+									<!-- single item area start -->
+									<!-- single item area start -->
+									<div class="single-applicant-item">
+										<div class="applicant-avater">
+											<img src="img/img_web/avatar_5.png" alt="aplicant image">
+										</div>
+										<div class="applicant-dezignation">
+											<h1>
+												Talent2Celeb Studios 
+												<span class="applicant-status"> 
+													<span>
+														<i class="fas fa-check-circle"></i>
+													</span>
+													VERIFIED
+												</span>
+											</h1> 
+											<p>Casting Professionals</p>
+											
+											<span><i class="far fa-star"></i></span>
+										</div>	
+										<div class="applicant-descriptions">
+											<h2>Runway Model Needed For Photo shoot</h2>
+											<p>A theme is the set of colors that will be applied to the Angular Material components. The library's approach to theming is based on the guidance from</p>
+
+											<div class="applicant-masage">
+												<p>
+													<span>
+														<i class="far fa-envelope"></i>
+													</span>
+													10
+												</p>
+												<p><span> Lagos </span> Actors/ Extras</p>
+											</div>	
+											<div class="applicant-applied-btn">
+												<a href="#">APPLIED</a>
+											</div>
+										</div>
+									</div>
+									<!-- single item area start -->
+								</div>
 							</div>
 						</div>
+
+						
+
 					</div>
 					<div class="col-md-4">
 						<!-- free-menbership-promo	 -->
@@ -421,11 +515,61 @@
 							</div>
 						</div>
 						<!-- Current Contest promo area -->
-							
+						<div class="Current-Contest-promo-wrapper">
+								<h1>Current Contest</h1>
+							<div class="Current-Contest-promo">
+								<div class="Current-Contest-coundown text-center">
+									<h3>
+										<span class="day">20 d</span>
+										<span class="hure">30 h</span>
+										<span class="minute">30 m</span>
+									</h3>
+									<p>REMAINING</p>
+								</div>
+								<div class="Current-Contest-content">
+									<div class="Current-Contest-content-top">
+									<h1>Talent2Celeb All New Best Selfie Photo Contest</h1>
+									<p>A theme is the set of colors that will be applied to the Angular Material components. guidance from the Material Design spec...</p>
+										
+									</div>
+
+									<div class="Current-Contest-content-bottom-left text-left">
+										<span><i class="far fa-user"></i>20</span>
+										
+									</div>
+									<div class="Current-Contest-content-bottom-right text-right">
+										
+											
+										<span>my vote <span class="badge">20</span></span>
+										<span><a href="#">view</a></span>
+										
+									</div>
+								</div>
+							</div>
+						</div>	
 					</div>
 				</div>
 			</div>
-
+			<!-- pagination area   start-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 text-center">
+						<div class="page-pagination">
+							<ul class="">
+							    <li class="disabled">
+							      <a class="" href="#" tabindex="-1"><span><i class="fas fa-angle-left"></i></span></a>
+							    </li>
+							    <li class=""><a class="active" href="#">1</a></li>
+							    <li class=""><a class="" href="#">2</a></li>
+							    <li class=""><a class="" href="#">3</a></li>
+							    <li class="">
+							      <a class="" href="#"><span><i class="fas fa-angle-right"></i></span></a>
+							    </li>
+							  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- Matching Auditions and Jobs area end -->
 
@@ -437,7 +581,7 @@
 						<!-- catagori-single-item start -->
 						<div class="catagori-single-item">
 							<div class="catagori-fetured-img">
-								<img src="http://via.placeholder.com/1200x235" class="img-fluid" alt="catagori fitured image">
+								<img src="img/img_web/bg_1@2x.png" class="img-fluid" alt="catagori fitured image">
 								<p class="sponsor-tag">S P O N S O R E D</p>
 								<div class="promo-content">
 									<h1>2MONTH SMASTERCLASS ON AUDIO MASTERING AND PRODUCTION</h1>
@@ -463,23 +607,23 @@
 					<div class="col-md-12">
 						<div class="social-links-section text-center">
 							<ul>
-								<li><a href="#"><img src="http://via.placeholder.com/50x50" class="img-fluid" alt="facebook"></a></li>
-								<li><a href="#"><img src="http://via.placeholder.com/50x50" class="img-fluid" alt="facebook"></a></li>
-								<li><a href="#"><img src="http://via.placeholder.com/50x50" class="img-fluid" alt="facebook"></a></li>
-								<li><a href="#"><img src="http://via.placeholder.com/50x50" class="img-fluid" alt="facebook"></a></li>
-								<li><a href="#"><img src="http://via.placeholder.com/50x50" class="img-fluid" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/icon_web/facebook@2x.png" class="img-fluid" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/icon_web/facebook@2x.png" class="img-fluid" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/icon_web/facebook@2x.png" class="img-fluid" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/icon_web/facebook@2x.png" class="img-fluid" alt="facebook"></a></li>
+								<li><a href="#"><img src="img/icon_web/facebook@2x.png" class="img-fluid" alt="facebook"></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-sm-6 col-md-4">
 						<div class="footer-logo">
-							<img src="http://via.placeholder.com/150x50" class="img-fluid" alt="footer logo">
+							<img src="img/img_web/t2c-logo_footer@2x.png" class="img-fluid" alt="footer logo">
 						</div>	
 					</div>
-					<div class="col-md-8 text-right">
+					<div class="col-sm-6 col-md-8 text-right">
 						<div class="footer-menu">
 							<ul>
 								<li><a href="#">About Us</a></li>
@@ -801,8 +945,6 @@
 	<script src="js/plugins.js"></script>
 	<!-- Main js  -->
 	<script src="js/main.js"></script>
-	<!-- sms box css js script -->
-	<script src="js/sms.js"></script>
 </body>
 
 </html>

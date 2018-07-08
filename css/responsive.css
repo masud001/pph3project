@@ -6,6 +6,38 @@
 }
 #dashboard-banner div{
     text-align: center !important;
+    
+}
+.dashboard-banner-for-mobile-wrapper .media img{
+    width: 150px;
+    height: 180px;
+}
+.for-mobile-upload-img{
+    top: 50%;
+    left: 47%;
+}
+.dashboard-banner-left-area h1{
+    font-size: .8rem;
+}
+.dashboard-banner-left-area p{
+    font-size: .6rem;
+}
+.dashboard-banner-right-area.for-mobile p{
+    margin-top: 1rem;
+}
+.dashboard-banner-left-area span{
+    margin: 0rem;
+}
+.dashboard-banner-left-area span i{
+    margin: 0rem;
+}
+ul.dashboard-mobile-menu li a{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+ul.dashboard-mobile-menu li{
+    margin: 0rem .2rem;
 }
 .talent-descovery-bg-1{display: none;}
 .talent-descovery-bg-2{display: none;}
@@ -47,6 +79,10 @@
 .company-value-table, .vission-table{
     margin-top: 15px;
 }
+
+
+
+
 }
 
 @media (max-width:320px){
@@ -271,7 +307,8 @@ a.login-continue-btn {
     height: 40px;
 }
 .brand-logo a img{
-	height: 40px;
+	height: auto;
+    width: 187px;
 }
 .catagori-single-img {
     width: 150px;
@@ -458,10 +495,31 @@ a.login-continue-btn {
     display: inline-block;
     padding: 1px 10%;
 }
+.dashboard-banner-for-mobile-wrapper .media img {
+    width: 200px;
+    height: 213px;
+}
 
+.media-body .dashboard-banner-left-area h1 {
+    font-size: 1.5rem;
+}
 
+.media-body .dashboard-banner-left-area h1 span {
+    margin: 0rem .5rem 0rem 0rem;
+}
 
+.media-body .dashboard-banner-left-area span {
+    margin: .5rem;
+}
 
+ul.dashboard-mobile-menu li a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+ul.dashboard-mobile-menu li {
+    margin: 0rem .5rem;
+}
 
 
 
@@ -537,6 +595,30 @@ a.login-continue-btn {
     text-align: left;
     margin-bottom: 1rem;
 }
+#dashboard-banner-for-mobile-area,
+#dashboard-mobile-menu-area{
+    display: block;
+}
+ul.dashboard-mobile-menu li a{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+ul.dashboard-mobile-menu li {
+    margin: 0rem 1rem;
+}
+.dashboard-banner-left-area h1{
+    font-size: 2rem;
+}
+.dashboard-banner-left-area p{
+    font-size: 1rem;
+}
+.dashboard-banner-right-area.for-mobile p{
+    margin-top: 2rem;
+}
+
+
+
 .audition-area-wrapper > h1 {
     font-size: 1rem;
 }
@@ -748,7 +830,13 @@ span.contastant-views-btn {
 .talent-descovery-bg-2{display: inline-block;}
 .talent-descovery-img-background{display: none;}
 .Nice-Website-Feature-bg-left,.Nice-Website-Feature-bg-right{display: block;}
-#dashboard-banner div{
+#dashboard-banner,
+#dashboard-menu-area{
+    display: block;
+}
+#dashboard-banner-for-mobile-area,
+#dashboard-mobile-menu-area{
+    display: none;
 }
 .page-29-slider-left-img {
     width: 350px;
